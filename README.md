@@ -92,7 +92,7 @@ kbuildsycoca6 --noincremental
 ### Notice: Not my own theme [SilentSDDM](https://github.com/uiriansan/SilentSDDM) by [uiriansan](https://github.com/uiriansan), wired in via [sddm.nix](./sddm.nix).
 I have changed nothing of the theme, but as the repo is my systems rice i still included it.
 
-<video src="./Previws/SDDM.mp4" controls></video>
+<video src="https://github.com/user-attachments/assets/c53a7dd5-0329-4949-b3eb-c8b14a09e8b1" controls></video>
 
 ## NixOS
 
