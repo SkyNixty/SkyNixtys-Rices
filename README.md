@@ -1,8 +1,9 @@
 # My Rices
 ### Contents:
-* My [fastfetch](##Fastfetch)
-* My [KDE Plasma](##KDE-Plasma)
-* My [SDDM](##SDDM)
+* My [fastfetch](#fastfetch)
+* My [KDE Plasma](#kde-plasma)
+* My [SDDM](#sddm)
+* My [NixOS](#nixos) config
 
 ## Artwork Disclaimer
 
@@ -27,10 +28,10 @@ please open an issue.
 <img src="Previews/Fastfetch.png" width="600"> 
 
 Fastfetch config is located at [config.jsonc](./fastfetch/config.jsonc)
-The config has hardcoded names like (`VivoBook 17 (X712)`) and (`AMD Radeon Vega 8`) I have commented them out which will show the default fastfetch modules output, for them I'd recommend swapping them to `{name}` or `{family}`  
+The config has hardcoded names like (`VivoBook 17 (X712)`) and (`AMD Radeon Vega 8`) I have commented them out which will show the default fastfetch modules output, for them I'd recommend swapping them to `{name}` or `{family}`.
 
 ## KDE Plasma
-### Notice: it was made on Plasma 6.6.6 and may not work on previous versions  
+### Notice: it was made on Plasma 6.6.6 and may not work on previous versions!  
 ### Contains:
 * '[Sweet KDE](https://github.com/EliverLara/Sweet-kde)' Plasma Style
 * '[Nothing](https://gitlab.com/jomada/nothing)' Window Decorations
@@ -88,6 +89,12 @@ kbuildsycoca6 --noincremental
 3. If anything is missing add it manually, components are under 'Contains:'
 
 ## SDDM
+### Notice: Not my own theme [SilentSDDM](https://github.com/uiriansan/SilentSDDM) by [uiriansan](https://github.com/uiriansan), wired in via [sddm.nix](./sddm.nix).
+I have changed nothing of the theme, but as the repo is my systems rice i still included it.
+
+<video src="./Previws/SDDM.mp4" controls></video>
+
+## NixOS
 
 # License
 MIT License
