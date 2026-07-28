@@ -10,7 +10,7 @@ The image used as a terminal logo (`rei.png`) is fan art of Rei Ayanami
 (Neon Genesis Evangelion) and is not my own work. All rights belong to
 the original artist/copyright holders.
 
-<img src="Previews/rei.png" width="200">
+<img src="./fastfetch/rei.png" width="200">
 Source: [aosora5088 on zerochan](https://www.zerochan.net/3895027)
 (background of the original image is removed by me for use a terminal logo)<br>
 <br>
