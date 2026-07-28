@@ -1,8 +1,8 @@
 # My Rices
 ### Contents:
-* My fastfetch
-* My KDE Plasma
-* My SDDM
+* My [fastfetch](##Fastfetch)
+* My [KDE Plasma](##KDE-Plasma)
+* My [SDDM](##SDDM)
 
 ## Artwork Disclaimer
 
@@ -16,7 +16,7 @@ Source: [aosora5088 on zerochan](https://www.zerochan.net/3895027)
 <br>
 The video used as a wallpaper is fan art of Rei Ayanami
 (Neon Genesis Evangelion) and is not my own work. All rights belong to
-the original artist/copyright holderso.
+the original artist/copyright holders.
 
 Source: [desktophut](https://www.desktophut.com/blue-light-anime-girl-6794)
 
@@ -27,8 +27,67 @@ please open an issue.
 <img src="Previews/Fastfetch.png" width="600"> 
 
 Fastfetch config is located at [config.jsonc](./fastfetch/config.jsonc)
-The config has hardcoded names like (`VivoBook 17 (X712)`) and (`AMD Radeon Vega 8`) i have commented them out which will show the default fastfetch modules output, for them I'd recommend swapping them to `{name}` or `{family}`  
+The config has hardcoded names like (`VivoBook 17 (X712)`) and (`AMD Radeon Vega 8`) I have commented them out which will show the default fastfetch modules output, for them I'd recommend swapping them to `{name}` or `{family}`  
 
+## KDE Plasma
+### Notice: it was made on Plasma 6.6.6 and may not work on previous versions  
+### Contains:
+* '[Sweet KDE](https://github.com/EliverLara/Sweet-kde)' Plasma Style
+* '[Nothing](https://gitlab.com/jomada/nothing)' Window Decorations
+* '[Midnight Sonata - Dark](https://github.com/SethStormR/Midnight-Sonata)' Icon Pack
+* '[Bibata-Modern-Ice](https://github.com/ful1e5/Bibata_Cursor)' Cursor (size 20)
+* '[Ocean](https://github.com/KDE/ocean-sound-theme)' System Sounds
+
+### Panel and Dock settings:
+#### Panel (Top): 
+* Thickness 20 
+* Fill
+* Always Visible 
+* Translucent
+#### Panel items (left to right):
+* Spacer (3px)
+* 'Lock/Logout' Widget with Shutdown, Restart, Hibernate, Show logout screen
+* Spacer (Flexible)
+* Clock (24H, no date)
+* Spacer (Flexible)
+* 'System tray' Widget
+* Spacer (3px)
+#### Dock (Bottom)
+* Thickness 50
+* Fit Content
+* Dodge Windows
+* Translucent
+#### Dock items (left to right):
+* Application launcher 
+* Icon only task manager containing (left to right):
+  * Dolphin
+  * Zen
+  * Spotify
+  * ghostty
+  * OBS
+  * Sober (Roblox client)
+  * Steam
+  * Discord
+  * Prism Launcher (Minecraft launcher)
+  * System settings (Not docked)
+
+### How it looks
+<img src="Previews/screenshot.png">
+Wallpaper is in the art disclaimer credits
+
+### How to add to your KDE
+1. clone the repo and move it to your KDE themes folder
+  Script for it:
+  
+```bash
+git clone https://github.com/SkyNixty/SkNixtys-Rices.git
+mv 'SkyNixtys-Rices/Klean desktop environment' ~/.local/share/plasma/look-and-feel/
+kbuildsycoca6 --noincremental
+```
+2. Enable it in Sytem Settings > Colors & Themes > Global Theme
+3. If anything is missing add it manually, components are under 'Contains:'
+
+## SDDM
 
 # License
 MIT License
