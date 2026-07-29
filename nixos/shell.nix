@@ -34,8 +34,6 @@
       setopt INC_APPEND_HISTORY
       setopt HIST_IGNORE_DUPS
 
-      # prompt
-      PS1='[SkyNixty@X712 ~}> '
     '';
   };
 
