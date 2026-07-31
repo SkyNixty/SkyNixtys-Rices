@@ -22,6 +22,9 @@
   # Install firefox.
   programs.firefox.enable = true;
 
+  # Enables mullvad vpn
+  services.mullvad-vpn.enable = true;
+
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
@@ -35,6 +38,7 @@
     discord
     flatpak
     fastfetch
+    mullvad-vpn
     ghostty
     flatpak-builder
     openrgb
